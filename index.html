@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Name Form -->
+    <form id="name-form">
+      <input
+        type="text"
+        id="user-name"
+        placeholder="Enter your full name" />
+      <input type="submit" value="Submit" />
+      <input id="reset" type="button" value="Reset" />
+    </form>
+    <!-- User Form -->
+    <h3 id="user-full-name"></h3>
+    <h3>
+      Your name is<span
+        style="margin-left: 10px"
+        id="full-name"></span>
+    </h3>
+    <form id="name-form">
+      <label for="first-name">First name</label>
+      <input
+        type="text"
+        id="first-name"
+        placeholder="Enter your first name" />
+      <br />
+      <br />
+      <label for="last-name">Last name</label>
+      <input
+        type="text"
+        id="last-name"
+        placeholder="Enter your last name" />
+      <br />
+      <br />
+      <input
+        id="empty-btn"
+        style="margin-left: 80px"
+        type="button"
+        value="Emty Full Name" />
+    </form>
+    <!-- Array to DOM -->
+    <ul id="apps-list"></ul>
+    <!-- Event button -->
+    <button id="my-button" type="button">Click me</button>
+    <!-- Multiple Events button -->
+    <button>Travel</button>
+    <button>Camping</button>
+    <button>Relaxation</button>
+    <script type="module" src="DOM-Events-1.js"></script>
+  </body>
+</html>
